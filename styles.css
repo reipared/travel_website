@@ -17,3 +17,228 @@ body, html {
 ::-webkit-scrollbar {
   width: 20px;
 }
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fde65e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fde02f;
+}
+
+/* Nav Bar */
+
+.nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px lightslategray;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  flex: 1;
+  font-size: 40px;
+  padding: 20px;
+  margin-left: 50px;
+  font-family: Satisfy;
+}
+
+ul.menu {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.menu li {
+  flex: 1;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: "Barlow Condensed";
+  text-align: center;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.menu li a:hover {
+  color: midnightblue;
+  text-decoration: underline;
+}
+
+/* Banner */
+
+.banner {
+  background-image: url("./assets/pexels-james-wheeler-417074.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Overflow: hidden */
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner-text-item {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-heading {
+  flex: 1;
+}
+
+.banner-heading h1 {
+  font-size: 100px;
+  font-weight: normal;
+  color: #fde02f;
+  font-family: Satisfy;
+}
+
+.banner-text-item .form {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  width: 70%;
+  padding: 1% 2%;
+}
+
+.banner-text-item .input, .banner-text-item .date, .banner-text-item .book {
+  padding: 15px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: Roboto;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+}
+
+.banner-text-item {
+  width: 50%;
+  flex: 2;
+}
+
+.banner-text-item input {
+  width: 50%;
+  flex: 2;
+}
+
+.banner-text-item .date {
+  width: 20%;
+  flex: 1;
+}
+
+.banner-text-item .book {
+  width: 20%;
+  flex: 1;
+}
+
+.banner-text-item .book {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fde02f;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Barlow Condensed";
+  width: 20%;
+}
+
+/* Services */
+
+.services {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-item {
+  flex: 1;
+  padding: 50px 10px;
+  border: lightcyan solid 1px;
+  text-align: center;
+  margin: 180px 50px;
+  transition: all 1s;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-item:hover {
+  box-shadow: 3px 3px 20px lightsteelblue;
+}
+
+.service-item h2 {
+  font-family: "Barlow Condensed";
+  font-size: 18px;
+  width: 120px;
+  color: #001f38;
+  flex: 1;
+}
+
+.service-item img {
+  width: 60px;
+  height: 60px;
+  flex: 1;
+}
+
+/* Places */
+
+.places-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.places-text small {
+  font-family: Roboto;
+  color: #ffc342;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.places-text h2 {
+  font-family: "Barlow Condensed";
+}
