@@ -43,7 +43,7 @@ Open the `index.html` file in your preferred web browser to view the Time's Trav
 
 ### Live Preview
 
-You can also live preview [here](#https://reipared.github.io/travel_website/)
+You can also live preview [here](https://reipared.github.io/travel_website/)
 
 ## Contributing
 
@@ -51,4 +51,4 @@ If you have any suggestions, improvements, or bug fixes, please feel free to con
 
 ## License
 
-This project is licensed under the [MIT License](#https://github.com/reipared/travel_website/blob/main/LICENSE.txt).
+This project is licensed under the [MIT License](https://github.com/reipared/travel_website/blob/main/LICENSE.txt).
