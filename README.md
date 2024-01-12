@@ -11,6 +11,7 @@ Welcome to the Time Traveler's Guild website! Craft your own time-bending advent
   - [Usage](#usage)
     - [Clone the repository](#clone-the-repository)
     - [Open the HTML file](#open-the-html-file)
+    - [Live Preview](#live-preview)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -32,13 +33,17 @@ Feel free to clone this repository and use the HTML and CSS code for your own pr
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/time-travelers-guild.git
-cd time-travelers-guild
+git clone https://github.com/reipared/travel_website.git
+cd travel_website
 ```
 
 ### Open the HTML file
 
 Open the `index.html` file in your preferred web browser to view the Time's Traveler's Guild website.
+
+### Live Preview
+
+You can also live preview [here](#https://reipared.github.io/travel_website/)
 
 ## Contributing
 
@@ -46,4 +51,4 @@ If you have any suggestions, improvements, or bug fixes, please feel free to con
 
 ## License
 
-This project is licensed under the [MIT License](#LICENSE.txt).
+This project is licensed under the [MIT License](#https://github.com/reipared/travel_website/blob/main/LICENSE.txt).
