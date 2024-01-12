@@ -4,12 +4,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 /*------------------------Reset-----------------------*/
+/* Apply a basic reset to remove default styles */
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
 /*------------------------Global-----------------------*/
+/* Global styling for body and html elements */
 body,
 html {
   margin: 0;
@@ -17,6 +19,7 @@ html {
 }
 
 /*------------------------Scroll Bar-----------------------*/
+/* Custom styling for the scrollbar */
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -36,6 +39,7 @@ html {
 }
 
 /*========================Nav Bar=========================*/
+/* Styling for the navigation bar */
 .nav-bar {
   display: flex;
   flex-flow: row wrap;
@@ -50,6 +54,7 @@ html {
   z-index: 1;
 }
 
+/* Styling for the logo */
 .logo {
   flex: 1;
   font-size: 40px;
@@ -58,12 +63,14 @@ html {
   font-family: Satisfy;
 }
 
+/* Styling for the menu */
 ul.menu {
   flex: 1;
   display: flex;
   flex-flow: row wrap;
 }
 
+/* Styling for the menu items */
 .menu li {
   flex: 1;
   list-style-type: none;
@@ -84,6 +91,7 @@ ul.menu {
 }
 
 /*=============================Banner=============================*/
+/* Styling for the banner section */
 .banner {
   background-image: url("./assets/pexels-james-wheeler-417074.jpg");
   background-size: cover;
@@ -99,6 +107,7 @@ ul.menu {
   align-items: center;
 }
 
+/* Styling for the overlay on the banner section */
 .banner::before {
   content: "";
   position: absolute;
@@ -111,6 +120,7 @@ ul.menu {
   /*background-size: 100%;*/
 }
 
+/* Styling for the banner text */
 .banner-text-item {
   position: absolute;
   width: 100%;
