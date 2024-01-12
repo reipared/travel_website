@@ -1,12 +1,15 @@
+/* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
+/*------------------------Reset-----------------------*/
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
+/*------------------------Global-----------------------*/
 body,
 html {
   margin: 0;
